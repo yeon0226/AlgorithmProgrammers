@@ -1,5 +1,5 @@
 function solution(num_list) {
-  let arr = [0, 0];
+  let arr = [0,0];
   let even = 0;
   let odd = 0;
     
