@@ -1,8 +1,6 @@
 function solution(n) {
- let result=0;
-    const str = n.toString()
- for(let i=0; i< str.length; i++ ){
-     result = result + parseInt(str[i])
- }
-    return result;
-} 
+return n
+    .toString()
+    .split("")
+    .reduce((acc, cur) => acc + Number(cur), 0);
+}
